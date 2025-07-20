@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gulzar's Portfolio</title>
+  <link rel="stylesheet" href="mainstyle.css" />
+  <script src="mainjs.js" defer></script>
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="brand">
+      Gulzar<span class="highlight">Hero</span>
+      <div class="contact-info">
+        📞 +92-300-1234567 | 📧 gulzar.hero@example.com
+      </div>
+    </div>
+    <nav class="navbar">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#recommendations">Recommendations</a>
+    </nav>
+  </header>
+
+  <section id="about" class="about-section">
+    <img
+      src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+      alt="Gulzar's Photo"
+      class="profile-pic"
+    />
+    <div class="about-text">
+      <h1>
+        About Me
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/25/25694.png"
+          class="home-icon"
+          alt="home"
+        />
+      </h1>
+      <p>
+        Hi! I'm Gulzar my Hero 💻 — a passionate front-end developer with a love
+        for crafting sleek, interactive web experiences. I thrive on creative
+        problem-solving and pixel-perfect designs!
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="skills-section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
+          alt="HTML"
+        />
+        <p>HTML<br /><small>2 years experience</small></p>
+      </div>
+      <div class="skill-card">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
+          alt="JavaScript"
+        />
+        <p>JavaScript<br /><small>1.5 years experience</small></p>
+      </div>
+      <div class="skill-card">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/732/732190.png"
+          alt="CSS"
+        />
+        <p>CSS<br /><small>2 years experience</small></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <h2>Projects</h2>
+    <ul>
+      <li>💬 ChatConnect — A real-time chatting platform for students</li>
+      <li>📅 TasklyPro — Daily planner with drag-drop scheduling</li>
+      <li>🛒 QuickMart — Responsive mini e-commerce store</li>
+    </ul>
+  </section>
+
+  <section id="recommendations" class="recommendations-section">
+    <h2>Recommendations</h2>
+    <ul id="recommendation-list">
+      <li>"Gulzar brings energy and creativity to every project." – Team Lead</li>
+      <li>"He writes clean code and thinks like a designer." – Mentor</li>
+      <li>"Very collaborative and helpful team player." – Colleague</li>
+    </ul>
+
+    <form id="recommendation-form">
+      <input
+        type="text"
+        id="new-recommendation"
+        placeholder="Write your recommendation..."
+        required
+      />
+      <button type="submit">Add</button>
+    </form>
+  </section>
+</body>
+</html>
